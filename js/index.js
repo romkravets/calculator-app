@@ -21,3 +21,10 @@ document.querySelector('.equal').addEventListener('click', equalPressed);
 function equalPressed() {
    display.value = eval(display.value);
 }
+
+document.querySelector('.clear').addEventListener('click', clearAll);
+
+function clearAll() {
+   document.querySelector('.display').value = '';
+}
+
