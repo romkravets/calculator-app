@@ -46,17 +46,17 @@ function sqrt() {
    display.value = sqrtDisplay;
 }
 
-let saveValue
+// let saveValue
 
-function saveValueFunc() {
-   saveValue = localStorage.setItem('saveValue');
-   document.querySelector('.calculator .display').value = saveValue;
-}
+// function saveValueFunc() {
+//    saveValue = localStorage.setItem('saveValue');
+//    document.querySelector('.calculator .display').value = saveValue;
+// }
 
-function getSaveValue() {
-   saveValue = document.querySelector('saveValue').value;
-   localStorage.setItem('saveValue', saveValue);
-}
+// function getSaveValue() {
+//    saveValue = document.querySelector('saveValue').value;
+//    localStorage.setItem('saveValue', saveValue);
+// }
 
-saveValueFunc();
-getSaveValue();
+// saveValueFunc();
+// getSaveValue();
